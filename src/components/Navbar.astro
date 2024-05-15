@@ -9,7 +9,7 @@ const navItems = [
       },
       {
         name: "Projects",
-        href: "/projects"
+        href: "/project"
       },
     ];
 ---
@@ -26,6 +26,6 @@ const navItems = [
     </div>
 
     <div class="hidden sm:flex justify-center items-center col-span-6">
-      <Navigation data={navItems}  />
+      <Navigation data={navItems} client:idle  />
     </div>
 </nav>
